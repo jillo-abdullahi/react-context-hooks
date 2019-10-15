@@ -8,7 +8,7 @@ export default class ThemeToggle extends Component {
         const { toggleTheme } = this.context;
         return (
             <div>
-                <div style={{"margin-bottom": "10px"}}>Toggle theme</div>
+                <div style={{"marginBottom": "10px"}}>Toggle theme</div>
                 <div>
                     <label className="switch" >
                         <input type="checkbox" onClick={toggleTheme} />
