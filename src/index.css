@@ -105,3 +105,12 @@ input:checked + .slider:before {
 }
 
 
+.song-list ul {
+    list-style:  none;
+}
+
+.song-list ul li {
+  padding: 2px;
+}
+
+
